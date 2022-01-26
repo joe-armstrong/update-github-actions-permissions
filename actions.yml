@@ -110,6 +110,9 @@ actions-ecosystem/action-add-labels:
   permissions:
     issues: write
     pull-requests: write
+actions-ecosystem/action-regex-match:
+  permissions:
+    contents: read
 alex-page/github-project-automation-plus:
   permissions:
     issues: read
@@ -143,3 +146,56 @@ codecov/codecov-action:
 mtfoley/pr-compliance-action:
   permissions:
     pull-requests: write
+ad-m/github-push-action:
+  permissions:
+    contents: write
+    pull-requests: write
+    pages: write
+autero1/action-terraform:
+  permissions:
+    contents: read
+avakar/create-deployment:
+  permissions:
+    contents: write
+    deployments: write
+    pull-requests: write
+    statuses: read
+dorny/test-reporter:
+  permissions:
+    contents: read
+fountainhead/action-wait-for-check:
+  permissions:
+    contents: read
+    pull-request: read
+    statuses: read
+fregante/setup-git-user:
+  permissions:
+    contents: write
+jakejarvis/s3-sync-action:
+  permissions:
+    contents: read
+juliangruber/approve-pull-request-action:
+  permissions:
+    contents: read
+    pull-request: write
+kceb/pull-request-url-action:
+  permissions:
+    contents: read
+    pull-request: read
+mikepenz/action-junit-report:
+  permissions:
+    contents: read
+promiseofcake/circleci-trigger-action:
+  permissions:
+    contents: read
+repo-sync/pull-request:
+  permissions:
+    contents: write
+    pull-request: write
+tj-actions/changed-files:
+  permissions:
+    contents: read
+tzkhan/pr-update-action:
+  permissions:
+    contents: write
+    pull-request: write
