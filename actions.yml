@@ -166,7 +166,7 @@ dorny/test-reporter:
 fountainhead/action-wait-for-check:
   permissions:
     contents: read
-    pull-request: read
+    pull-requests: read
     statuses: read
 fregante/setup-git-user:
   permissions:
@@ -177,11 +177,11 @@ jakejarvis/s3-sync-action:
 juliangruber/approve-pull-request-action:
   permissions:
     contents: read
-    pull-request: write
+    pull-requests: write
 kceb/pull-request-url-action:
   permissions:
     contents: read
-    pull-request: read
+    pull-requests: read
 mikepenz/action-junit-report:
   permissions:
     contents: read
@@ -191,11 +191,11 @@ promiseofcake/circleci-trigger-action:
 repo-sync/pull-request:
   permissions:
     contents: write
-    pull-request: write
+    pull-requests: write
 tj-actions/changed-files:
   permissions:
     contents: read
 tzkhan/pr-update-action:
   permissions:
     contents: write
-    pull-request: write
+    pull-requests: write
